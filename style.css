@@ -1,0 +1,310 @@
+*{
+    list-style: none;
+}
+
+
+a:focus, a:hover, a:visited {
+    text-decoration: none !important;
+}
+
+.catagory-select-wrapper{
+    display: flex;
+    gap: 30px;
+    max-width: 1024px;
+    margin:auto;
+}
+
+.catagory-select{
+    flex: 1;
+    background-color: #1E9FC4;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px 20px 15px;
+    position: relative;
+}
+.catagory-select:hover{
+cursor: pointer;
+}
+
+.catagory-select .catagoryName p{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.catagory-select .catagorySubtitle p{
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.catagory-tic{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.block_benefits>.benefit{
+    display: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.bank-benefit-wrapper{
+    padding-bottom: 30px;
+}
+
+.bank-benefit-wrapper:last-child{
+    padding-bottom: 0;
+}
+
+.content-wrapper{
+    display: flex;
+    background-color: #F5F5F5;;
+}
+.left-side{
+    flex: 40%;
+    position: relative;
+}
+.left-side .main-image{
+    width: 100%;
+    height: 100%;
+}
+.left-side .sticker-image{
+    position: absolute;
+    width: 88px;
+    left: 26px;
+    bottom: 20px;
+}
+
+.Tagesgeldkonto .sticker-image{
+    width: 165px;
+	left: -18px;
+	bottom: -52px;
+}
+
+.right-side{
+    flex: 60%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.benifit_card_header{
+    padding-bottom: 10px;
+}
+
+.benifit_card_header p{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #464646;
+}
+
+.benifit_card_subheader{
+    padding-bottom: 25px;
+}
+.benifit_card_subheader p{
+    color: #464646;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.benifit_card_listheader{
+    padding-bottom: 10px;
+}
+.benifit_card_listheader p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #464646;
+}
+
+.benefit_highlights li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.benefit_highlights li:before{
+        content: "";
+        background: url(https://i.ibb.co/nm8mR8b/list-tic.png) no-repeat;
+        background-size: 16px;
+        background-position: left;
+        padding: 13px;
+}
+
+.benefit_highlights{
+    padding-bottom: 25px;
+}
+
+.benefit_highlights li span{
+font-weight: 700;
+}
+
+.card-button{
+        position: relative;
+        display: inline-block;
+        width: auto;
+        max-width: 500px;
+        padding: 7px 20px;
+        margin: 0;
+        font-family: inherit;
+        font-size: 20px;
+        line-height: 24px;
+        color: #fff;
+        text-align: left;
+        text-decoration: none;
+        cursor: pointer;
+        background: linear-gradient(to bottom,#4dbed3 0,#0080a6 100%);
+        border: none;
+        border-radius: 6px;
+        box-shadow: none;
+}
+
+.card-button.card-button:after{
+    display: inline-block;
+    width: 11px;
+    height: 18px;
+    margin-bottom: -3px;
+    margin-left: 10px;
+    content: '';
+    background-image: url(../../../../static/images/evr/assets/arrows-s1c3bbec473.png);
+    background-repeat: no-repeat;
+    background-position: 0 -1990px;
+}
+
+.card-button.card-button:hover{
+        background: linear-gradient(to bottom,#2fa8be 0,#005772 100%);
+}
+
+.card-button.card-button:visited{
+    color: #fff !important;
+}
+
+.button-wrapper{
+    justify-self: end;
+}
+
+.hidden{
+    display: none;
+}
+
+.catagory-select-header{
+    margin: auto;
+    max-width: 1024px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+
+.catagory-select-counter{
+    margin: auto;
+    max-width: 1024px;
+    padding-top: 35px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #444444;
+}
+.catagory-select-counter p{    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.catagory-select-counter span{    
+font-weight: 800;
+}
+
+.card-catagory-heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.card-catagory-heading p:first-child{
+font-size: 28px;
+font-weight: 600;
+line-height: 24px;
+padding-bottom: 0px;
+}
+
+.card-catagory-heading p:last-child{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: #a7a7a7;
+}
+
+.condition-wrapper{
+	padding-bottom: 50px;
+}
+
+.condition-wrapper li{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #D9D9D9;
+padding-bottom: 10px;
+list-style: none;
+}
+
+.card-catagory-heading{
+    padding-bottom: 30px;
+}
+
+.image-anchor{
+    height: 100%;
+    display: inline;
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width: 1200px){
+	.catagory-select-wrapper,
+    .catagory-select-counter,
+    .catagory-select-header,
+    .container {
+		max-width: 95% !important;
+        margin: auto;
+	}
+}
+
+@media (min-width: 992px){
+.container {
+    width: 95% !important;
+}
+}
+
+@media screen and (max-width: 767px){
+
+	.image-anchor {
+		min-height: 40vh;
+	}
+    .content-wrapper,
+    .catagory-select-wrapper{
+        flex-direction: column;
+    }
+
+	.block_benefits .image__part img:first-child{
+		min-width: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+	}
+}
+@media screen and (max-width: 576px){
+	.sticker{
+		width: 40px !important;
+	}
+
+	.interest-card-wrapper{
+		flex-direction: column;
+	}
+}
